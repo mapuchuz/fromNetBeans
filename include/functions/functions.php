@@ -3,6 +3,9 @@ function addMessage($code,$type,$lib) {
 	$_SESSION['messages'][]= array($code,$type,$lib);
 }
 
+/**
+ * nom et descripton
+ */
 function afficheMessage() {
 	if (isset($_SESSION['messages'])) {
 		 foreach($_SESSION['messages'] as $vale ) {
@@ -15,6 +18,3 @@ function afficheMessage() {
 		 }}
 	}
 } 
- 
- 
-?>
