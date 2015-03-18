@@ -1,0 +1,46 @@
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+	width: 400px;
+	color: blue;
+} 
+
+textarea {	
+    background-color: rgb(250,250, 	50);
+    float: right;
+}
+
+select ,	fieldset>p>input {
+    background-color: Gainsboro;
+    float: right;
+}
+
+
+.sexes {
+	border: 1px solid red;
+	width: 60px;
+	float: right;
+}
+.maphoto {
+	float: right;
+}
+
+.titre_article{
+    color: blue;
+    display: inline;
+}
+
+.content_article{
+    color: green;
+}
+
+.mon_article{
+    padding:3px; border:2px dotted #a5a5a5; background-color:#F0E68C;width:400px;
+
+}
